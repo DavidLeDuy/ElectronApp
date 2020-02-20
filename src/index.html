@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" /> -->
+    <title>App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Bootstrap Sidebar</h3>
+      </div>
+      <ul class="list-unstyled components">
+        <p>Dummy Heading</p>
+        <li class="active">
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+          <ul class="list-unstyled">
+            <li><a href="#">Home 1</a></li>
+            <li><a href="#">Home 2</a></li>
+            <li><a href="#">Home 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+          <ul class="list-unstyled">
+            <li><a href="#">Page </a></li>
+            <li><a href="#">Page </a></li>
+            <li><a href="#">Page </a></li>
+          </ul>
+        </li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="expander"><i class="fa fa-chevron-right fa-2x"></i></div>
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col-lg-12"><h2>Live Demo</h2></div>
+      </div>
+      <div id="tf-container" class="row pb-4">
+        <div class="col-lg-12 text-center ">
+          <input id="modelLink" type="text" placeholder="e.g. https://teachablemachine.withgoogle.com/models/SRvgc7nT/" />
+          <button id="knopf" class="btn btn-success" "><i class="fas fa-plus-square"></i> Add</button>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="meter">
+            <span style="width:0%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./js/teachable.js"></script>
+    <script src="./js/libs/fas.min.js"></script>
+    <script src="./js/listener.js"></script>
+  </body>
+</html>

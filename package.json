@@ -1,0 +1,28 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "my first electron app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "css",
+    "html",
+    "js"
+  ],
+  "author": "David Le Duy",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-builder": "^22.3.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "electron": "^8.0.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
