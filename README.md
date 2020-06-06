@@ -6,26 +6,26 @@
 
 # Installation
 
-> ## Install Node.js
->
-> https://nodejs.org/en/download/
->
-> ---
+## Install Node.js
 
-> ## Install yarn
->
->     npm install yarn
->
-> ---
+https://nodejs.org/en/download/
 
-> ## Install dependencies
->
->     yarn install
->
-> ---
+---
 
-> ## Start the App
->
->     npm start
->
-> ---
+## Install yarn
+
+     npm install yarn
+
+---
+
+## Install dependencies
+
+     yarn install
+
+---
+
+## Start the App
+
+     npm start
+
+---
